@@ -1,0 +1,138 @@
+.sma-wrap {
+	max-width: 900px;
+}
+
+.sma-intro {
+	max-width: 70em;
+}
+
+.sma-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 1.25em 1.5em;
+	margin: 1.5em 0;
+}
+
+.sma-card h2 {
+	margin-top: 0;
+}
+
+.sma-help-text {
+	background: #f6f7f7;
+	border-left: 4px solid #2271b1;
+	padding: 0.75em 1em;
+	margin: 0.75em 0;
+}
+
+.sma-help-list {
+	list-style: disc;
+	padding-left: 1.5em;
+}
+
+.sma-extra-records-table,
+.sma-records-table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+.sma-extra-records-table th,
+.sma-extra-records-table td,
+.sma-records-table th,
+.sma-records-table td {
+	padding: 0.6em 0.8em;
+	vertical-align: top;
+}
+
+.sma-records-table code,
+.sma-extra-records-table code {
+	word-break: break-all;
+}
+
+.sma-records-table .description,
+.sma-extra-records-table .description {
+	margin: 0.25em 0 0;
+	font-size: 0.9em;
+}
+
+.sma-col-type {
+	width: 6em;
+}
+
+.sma-col-remove {
+	width: 2em;
+}
+
+.sma-remove-row {
+	color: #b32d2e;
+	font-size: 1.2em;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.sma-status {
+	display: inline-block;
+	padding: 0.2em 0.7em;
+	border-radius: 3px;
+	font-size: 0.9em;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.sma-status-match,
+.sma-status-good {
+	background: #edfaef;
+	color: #1a7f37;
+}
+
+.sma-status-mismatch,
+.sma-status-warn {
+	background: #fcf9e8;
+	color: #996800;
+}
+
+.sma-status-missing,
+.sma-status-bad {
+	background: #fcf0f1;
+	color: #b32d2e;
+}
+
+.sma-status-unknown {
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+.sma-inline-result {
+	margin-left: 0.5em;
+	font-style: italic;
+}
+
+.sma-message-success {
+	color: #1a7f37;
+}
+
+.sma-message-error {
+	color: #b32d2e;
+}
+
+.sma-analysis-block {
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+.sma-analysis-block h4 {
+	margin-top: 0;
+}
+
+.sma-analysis-row {
+	margin: 0.5em 0;
+}
+
+.sma-analysis-desc {
+	display: block;
+	margin: 0.15em 0 0;
+	font-size: 0.9em;
+	color: #50575e;
+}
